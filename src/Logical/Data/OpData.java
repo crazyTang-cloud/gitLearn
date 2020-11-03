@@ -1,4 +1,4 @@
-package Logical.Data;
+﻿package Logical.Data;
 
 public class OpData {
     /**
@@ -32,5 +32,9 @@ public class OpData {
 
     public int getData3() {
         return Data3;
+    }
+	
+    public int get(){
+        return Data1;
     }
 }
