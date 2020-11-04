@@ -36,6 +36,7 @@ public class GetAward {
             }
             inputStream.close();
         } catch (Exception e) {
+            System.out.println("111");
             e.printStackTrace();
         }
         return str;
